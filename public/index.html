@@ -12,11 +12,33 @@
 <div id="content"></div>
 <script type="text/jsx">
 
+    var CommentList = React.createClass({
+        render: function(){
+            return (
+                <div className="commentList">
+                    This is a CommentList
+                </div>
+            );
+        }
+    });
+
+    var CommentForm = React.createClass({
+        render: function(){
+            return (
+                <div class="commentForm">
+                    This is a CommentForm
+                </div>
+            );
+        }
+    });
+
     var CommentBox = React.createClass({
         render: function(){
             return (
                 <div class="commentBox">
-                    Hello world, I am a commentBox.
+                    <h1>Comments</h1>
+                    <CommentList/>
+                    <CommentForm/>
                 </div>
             );
         }
