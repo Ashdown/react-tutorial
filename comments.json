@@ -14,5 +14,13 @@
     {
         "author": "James",
         "text": "test"
+    },
+    {
+        "author": "Fred",
+        "text": "test"
+    },
+    {
+        "author": "James",
+        "text": "Another Test"
     }
 ]
